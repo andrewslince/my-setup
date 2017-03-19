@@ -107,7 +107,7 @@ sudo chown -Rf $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
 
 
 ###############################################################################
-# CONFIGURING RUBY AND SASS
+# CONFIGURING RUBY, SASS AND JEKYLL
 ###############################################################################
 
 # install ruby
@@ -115,6 +115,9 @@ sudo apt-get install -y ruby-full
 
 # install sass
 sudo su -c "gem install sass"
+
+# install jekyll
+sudo gem install jekyll bundler
 
 
 
