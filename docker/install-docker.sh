@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# Credits: https://store.docker.com/editions/community/docker-ce-server-ubuntu
+#
+
 sudo apt-get -y install \
   apt-transport-https \
   ca-certificates \
