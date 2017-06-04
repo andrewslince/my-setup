@@ -78,7 +78,7 @@ user_full_name=$(getent passwd `whoami` | cut -d ':' -f 5 | cut -d ',' -f 1)
   sudo service apache2 restart
 
 # download atom plugins
-apm install minimap pigments file-icons linter linter-htmlhint linter-csslint linter-jshint editorconfig docblockr atom-beautify
+apm install minimap pigments file-icons linter linter-htmlhint linter-csslint linter-jshint editorconfig docblockr atom-beautify linter-php
 
 # sets "vim" as default editor
 sudo sh -c 'echo "\nexport EDITOR='vim'\nexport VISUAL='vim'" >> /etc/bash.bashrc'
