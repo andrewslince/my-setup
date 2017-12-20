@@ -13,4 +13,7 @@ sudo apt-get upgrade -y
 # installs updates (new ones)
 sudo apt-get dist-upgrade -y
 
+# remove unused linux headers and old packages
+sudo apt-get autoremove
+
 exit 0
