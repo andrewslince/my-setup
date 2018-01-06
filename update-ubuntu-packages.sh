@@ -14,6 +14,6 @@ sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
 # remove unused linux headers and old packages
-sudo apt-get autoremove
+sudo apt-get autoremove -y
 
 exit 0
