@@ -6,14 +6,41 @@ set -e
 # Reference: https://blog.bluematador.com/posts/postman-how-to-install-on-ubuntu-1604/
 #
 
+POSTMAN_FILE="postman.tar.gz"
+POSTMAN_BIN="/usr/bin/postman"
+
+sudo rm -Rf $POSTMAN_BIN
+
 # downloading postman files
-wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
+echo ">>> downloading postman files..."
+echo ""
+wget https://dl.pstmn.io/download/latest/linux64 -O $POSTMAN_FILE
 
 # extracting files
-sudo tar -xzf postman.tar.gz -C /opt
+echo ">>> extracting files..."
+echo ""
+sudo tar -xzf $POSTMAN_FILE -C /opt
 
 # removing unecessary files
-rm postman.tar.gz
+echo ">>> removing unecessary files..."
+echo ""
+rm $POSTMAN_FILE
 
 # creating symlink
-sudo ln -s /opt/Postman/Postman /usr/bin/postman
+echo ">>> creating symlink..."
+echo ""
+sudo ln -s /opt/Postman/Postman $POSTMAN_BIN
+
+# creating shortcut icon in launcher
+echo ">>> creating shortcut icon in launcher..."
+echo ""
+cat > ~/.local/share/applications/postman.desktop <<EOL
+[Desktop Entry]
+Encoding=UTF-8
+Name=Postman
+Exec=postman
+Icon=/opt/Postman/app/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;
+EOL
