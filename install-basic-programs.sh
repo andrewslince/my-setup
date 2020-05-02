@@ -10,7 +10,6 @@ sudo apt install -y \
     curl \
     gimp \
     inkscape \
-    terminator \
     gnome-tweaks
 
 exit 0

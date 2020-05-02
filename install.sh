@@ -10,13 +10,15 @@ source ./install-postman.sh
 
 source ./install-aws-cli.sh
 
+source ./install-terminator.sh
+
 source ./install-mellow-player.sh
 
 source ./configure-www-directory.sh
 
 source ./configure-basic-bash-aliases.sh
 
-# show the current git branch in linux terminal (https://gist.github.com/andrewslince/9164071) 
+# show the current git branch in linux terminal (https://gist.github.com/andrewslince/9164071)
 
 # install nvm (https://github.com/nvm-sh/nvm#installing-and-updating)
 
