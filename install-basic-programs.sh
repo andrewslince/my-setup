@@ -6,10 +6,11 @@ set -e
 sudo apt update -y
 
 sudo apt install -y \
-        vim \
-        curl \
-        terminator \
-	gimp \
-	inkscape
+    vim \
+    curl \
+    gimp \
+    inkscape \
+    terminator \
+    gnome-tweaks
 
 exit 0
