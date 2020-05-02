@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#
+# Resources:
+#
+# - Link for the latest version: https://bintray.com/colinduquesnoy/MellowPlayer/Stable/_latestVersion
+#
+
 set -e
 
 sudo clear
