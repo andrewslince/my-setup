@@ -2,42 +2,40 @@
 
 set -e
 
-echo ""
+declare -a EXTENSIONS=(
+   # GitLens
+   "eamodio.gitlens"
 
-# GitLens
-code --force --install-extension eamodio.gitlens
-echo ""
+   # Apache Config
+   "mrmlnc.vscode-apache"
 
-# Apache Config
-code --force --install-extension mrmlnc.vscode-apache
-echo ""
+   # DotENV
+   "mikestead.dotenv"
 
-# DotENV
-code --force --install-extension mikestead.dotenv
-echo ""
+   # EditorConfig for VS Code
+   "editorconfig.editorconfig"
 
-# EditorConfig for VS Code
-code --force --install-extension editorconfig.editorconfig
-echo ""
+   # ESLint
+   "dbaeumer.vscode-eslint"
 
-# ESLint
-code --force --install-extension dbaeumer.vscode-eslint
-echo ""
+   # HTML Format
+   "mohd-akram.vscode-html-format"
 
-# HTML Format
-code --force --install-extension mohd-akram.vscode-html-format
-echo ""
+   # MagicPython
+   "magicstack.magicpython"
 
-# MagicPython
-code --force --install-extension magicstack.magicpython
-echo ""
+   # PHP DocBlocker
+   "neilbrayfield.php-docblocker"
 
-# PHP DocBlocker
-code --force --install-extension neilbrayfield.php-docblocker
-echo ""
+   # Python
+   "ms-python.python"
+)
 
-# Python
-code --force --install-extension ms-python.python
 echo ""
+for i in "${EXTENSIONS[@]}"
+do
+    code --force --install-extension $i
+    echo ""
+done
 
 exit 0
