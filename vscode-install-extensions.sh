@@ -2,7 +2,7 @@
 
 set -e
 
-declare -a EXTENSIONS=(
+EXTENSIONS=(
    # GitLens
    "eamodio.gitlens"
 
