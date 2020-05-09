@@ -10,6 +10,7 @@ sudo apt install -y \
     curl \
     gimp \
     make \
+    pip3 \
     inkscape \
     gnome-tweaks
 
