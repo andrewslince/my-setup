@@ -9,6 +9,7 @@ sudo apt install -y \
     vim \
     curl \
     gimp \
+    make \
     inkscape \
     gnome-tweaks
 
