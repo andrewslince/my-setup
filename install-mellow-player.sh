@@ -3,6 +3,7 @@
 #
 # Resources:
 #
+# - Site: https://colinduquesnoy.gitlab.io/MellowPlayer/
 # - Link for the latest version: https://bintray.com/colinduquesnoy/MellowPlayer/Stable/_latestVersion
 #
 
