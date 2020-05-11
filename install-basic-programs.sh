@@ -7,6 +7,7 @@ sudo apt update -y
 
 sudo apt install -y \
     vim \
+    npm \
     curl \
     gimp \
     make \
