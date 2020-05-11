@@ -4,6 +4,8 @@ set -e
 
 source ./install-basic-programs.sh
 
+source ./install-npm.sh
+
 source ./install-git.sh
 
 source ./install-postman.sh
