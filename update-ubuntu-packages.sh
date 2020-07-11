@@ -16,4 +16,7 @@ sudo apt dist-upgrade -y
 # remove unused linux headers and old packages
 sudo apt autoremove -y
 
+# update npm version
+npm install -g npm
+
 exit 0
