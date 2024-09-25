@@ -38,5 +38,3 @@ cat > $APP_SETTINGS_DIRECTORY/$APP_SETTINGS_FILENAME <<EOL
       parent = window0
 [plugins]
 EOL
-
-exit 0

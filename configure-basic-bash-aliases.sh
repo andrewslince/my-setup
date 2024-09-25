@@ -7,7 +7,6 @@ sudo sh -c 'echo "\nexport EDITOR='vim'\nexport VISUAL='vim'" >> /etc/bash.bashr
 
 # creating alias commands
 touch ~/.bash_aliases
-echo "alias h='vim /etc/hosts'" >> ~/.bash_aliases
 
 # display hidden files by default
 sudo sh -c 'echo "\nalias ls=\"ls -a\"" >> ~/.bashrc'
