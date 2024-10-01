@@ -3,7 +3,7 @@
 set -e
 
 # install update packapegs
-sudo apt update && sudo apt upgrade -y
+sudo apt update -y && sudo apt upgrade -y
 
 sudo apt install -y \
     python3.10-venv \
