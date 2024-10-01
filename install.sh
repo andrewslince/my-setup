@@ -12,11 +12,13 @@ source ./install-nvm.sh
 
 source ./install-vscode.sh
 
-source ./install-terminator.sh
+source ./install-1password-cli.sh
+
+source ./install-1password-cli.sh
+
+source ./install-github-cli.sh
 
 source ./configure-basic-bash-aliases.sh
-
-# show the current git branch in linux terminal (https://gist.github.com/andrewslince/9164071)
 
 # install docker (https://docs.docker.com/engine/install/ubuntu/)
 
