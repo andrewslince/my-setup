@@ -14,4 +14,3 @@ sudo apt install code -y
 
 code --version
 
-exit 0

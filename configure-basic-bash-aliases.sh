@@ -14,4 +14,3 @@ sudo sh -c 'echo "\nalias ls=\"ls -a\"" >> ~/.bashrc'
 # reload bash
 source ~/.bashrc
 
-exit 0

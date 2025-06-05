@@ -27,5 +27,3 @@ source ./install-python-tools.sh
 # install docker compose (https://docs.docker.com/compose/install/)
 
 # install vscode extensions
-
-exit 0
