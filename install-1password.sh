@@ -20,3 +20,17 @@ sudo mkdir -p /usr/share/debsig/keyrings/AC2D62742012EA22
 curl -sS https://downloads.1password.com/linux/keys/1password.asc | sudo gpg --dearmor --output /usr/share/debsig/keyrings/AC2D62742012EA22/debsig.gpg
 
 sudo apt update && sudo apt install 1password -y
+
+# start 1password when sign in computer
+cat > ~/.config/autostart/1password.desktop <<EOL
+[Desktop Entry]
+Name=1Password
+Exec=/opt/1Password/1password %U
+Terminal=false
+Type=Application
+Icon=1password
+StartupWMClass=1Password
+Comment=Password manager and secure wallet
+MimeType=x-scheme-handler/onepassword;x-scheme-handler/onepassword8;
+Categories=Office;
+EOL
