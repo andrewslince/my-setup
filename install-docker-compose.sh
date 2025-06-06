@@ -2,6 +2,8 @@
 
 set -e
 
+# CREDITS: https://docs.docker.com/compose/install/
+
 clear
 
 VERSION="1.25.5"
