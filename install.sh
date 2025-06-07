@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+{
 
 source ./install-basic-programs.sh
 
@@ -17,3 +17,5 @@ source ./configure-basic-bash-aliases.sh
 source ./install-1password.sh
 
 source ./install-python-tools.sh
+
+}
