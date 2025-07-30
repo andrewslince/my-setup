@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+# set -e
 
 # install update packapegs
 sudo apt update -y

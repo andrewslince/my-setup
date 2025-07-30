@@ -4,7 +4,7 @@
 # Credits: ttps://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html#cliv2-linux-install
 #
 
-set -e
+# set -e
 
 sudo apt update -y
 

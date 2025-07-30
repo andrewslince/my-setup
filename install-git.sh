@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+# set -e
 
 echo ""
 echo "Please enter your e-mail:"

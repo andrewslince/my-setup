@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+# set -e
 
 # install basic programs
 sudo apt update -y

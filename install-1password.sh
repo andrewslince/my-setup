@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+# set -e
 
 # CREDITS: https://support.1password.com/install-linux/
 

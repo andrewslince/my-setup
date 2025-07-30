@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+# set -e
 
 # get short python version
 PYTHON_VERSION=$(python3 --version 2>&1 | grep -oP '\d+\.\d+')

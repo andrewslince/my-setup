@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+# set -e
 
 #
 # Reference: https://blog.bluematador.com/posts/postman-how-to-install-on-ubuntu-1604/

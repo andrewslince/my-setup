@@ -4,7 +4,7 @@
 # Credits: https://gist.github.com/grenade/6318301#file-ssh-key-permissions-sh
 #
 
-set -e
+# set -e
 
 chmod -f 700 ~/.ssh || :
 chmod -f 644 ~/.ssh/authorized_keys || :

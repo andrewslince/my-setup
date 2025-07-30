@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+# set -e
 
 APP_SETTINGS_DIRECTORY="$HOME/.config/terminator"
 APP_SETTINGS_FILENAME="config"
