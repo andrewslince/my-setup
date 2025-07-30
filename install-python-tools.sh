@@ -2,11 +2,14 @@
 
 set -e
 
+# get short python version
+PYTHON_VERSION=$(python3 --version 2>&1 | grep -oP '\d+\.\d+')
+
 # install update packapegs
 sudo apt update -y && sudo apt upgrade -y
 
 sudo apt install -y \
-    python3.10-venv \
+    python${PYTHON_VERSION}-venv \
     python3-pip
 
 sudo pip3 install pipreqs
