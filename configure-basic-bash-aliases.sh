@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+#set -e
 
 # sets "vim" as default editor
 sudo sh -c 'echo "\nexport EDITOR='vim'\nexport VISUAL='vim'" >> /etc/bash.bashrc'
