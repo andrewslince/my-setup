@@ -22,6 +22,7 @@ curl -sS https://downloads.1password.com/linux/keys/1password.asc | sudo gpg --d
 sudo apt update && sudo apt install 1password -y
 
 # start 1password when sign in computer
+mkdir -p ~/.config/autostart
 cat > ~/.config/autostart/1password.desktop <<EOL
 [Desktop Entry]
 Name=1Password
