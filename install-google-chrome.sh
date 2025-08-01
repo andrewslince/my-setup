@@ -13,6 +13,7 @@ sudo apt -f install
 rm -Rf google-chrome-stable_current_amd64.deb
 
 # start google chrome when sign in computer
+mkdir -p ~/.config/autostart
 cat > ~/.config/autostart/google-chrome.desktop <<EOL
 [Desktop Entry]
 Type=Application
