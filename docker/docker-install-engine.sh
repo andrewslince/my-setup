@@ -1,11 +1,13 @@
 #!/bin/bash
 
-set -e
-
 # Alternative #1 to install docker engine
 
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
+
+sudo usermod -aG docker $USER
+
+rm get-docker.sh
 
 # Alternative #2 to install docker engine
 
