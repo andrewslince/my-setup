@@ -24,3 +24,8 @@ sudo apt autoclean -y
 
 # update npm version
 npm install -g npm
+
+# update supabase cli (installed outside apt/npm, so it needs its own updater)
+if [ -x "$HOME/.supabase/bin/supabase" ]; then
+  "$(dirname "$(readlink -f "$0")")/update-supabase-cli.sh" || true
+fi
