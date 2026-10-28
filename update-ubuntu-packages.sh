@@ -29,3 +29,8 @@ npm install -g npm
 if [ -x "$HOME/.supabase/bin/supabase" ]; then
   "$(dirname "$(readlink -f "$0")")/update-supabase-cli.sh" || true
 fi
+
+# update claude code (native installer, outside apt/npm)
+if [ -x "$HOME/.local/bin/claude" ]; then
+  "$(dirname "$(readlink -f "$0")")/update-claude-code.sh" || true
+fi
